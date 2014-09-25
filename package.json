@@ -1,0 +1,38 @@
+{
+  "name": "eue",
+  "version": "1.0.0",
+  "description": "A standalone, d3-like implementation of the enter/exit/update pattern.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test | tap-spec"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {
+    "array-missing": "^1.1.0"
+  },
+  "devDependencies": {
+    "tap-spec": "^1.0.0",
+    "tape": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/eue.git"
+  },
+  "keywords": [
+    "d3",
+    "data",
+    "reactive",
+    "enter",
+    "exit",
+    "update"
+  ],
+  "homepage": "https://github.com/hughsk/eue",
+  "bugs": {
+    "url": "https://github.com/hughsk/eue/issues"
+  }
+}

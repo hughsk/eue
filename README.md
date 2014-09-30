@@ -15,9 +15,13 @@ other rendering contexts.
 
 ### `setData = eue(options)`
 
-* `enter(d)`: called when a new object is added to the data.
-* `exit(d)`: called when a new object is removed from the data.
-* `update(d)`: called for every datum when the data is updated.
+* `enter(d, i)`: called when a new object is added to the data.
+* `exit(d, i)`: called when a new object is removed from the data.
+* `update(d, i)`: called for every datum when the data is updated.
+
+Where `d` is the relevant datum, and `i` is the index of this datum within its
+*group*, i.e. it's the `ith` datum that's had `enter` called on it during this
+update.
 
 ### `setData(data)`
 
